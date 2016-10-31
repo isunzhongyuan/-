@@ -1,0 +1,170 @@
+@charset "utf-8";
+/*--公用样式开始---*/
+*{word-wrap:break-word}
+a,body,button,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,html,img,input,li,ol,p,select,td,textarea,th,tr,ul{margin:0;padding:0}
+div{ margin:0 auto;}
+dl,li,ol,ul{list-style-type:none}
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+address,caption,cite,code,dfn,em,i,th,var{font-style:normal;font-weight:400;font-style:normal}
+button,input,optgroup,option,select,textarea{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+button,input{overflow:visible;vertical-align:middle;outline:0}
+body,button,input,select,td,textarea,th{font-family:"\5FAE\8F6F\96C5\9ED1",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;font-size:12px;color:#333;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased}
+body{line-height:1.8;-webkit-font-smoothing:antialiased;}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+img{border:0;vertical-align:middle}
+a,area{outline:0;blr:expression(this.onFocus=this.blur())}
+a{text-decoration:none;cursor:pointer; color:#333; transition: all 0.3s ease-in-out 0s;}
+a:hover{text-decoration:none;outline:0; color:#da0101;}
+a.ie6:hover{zoom:1}
+a:focus{outline:0}
+a:active,a:hover{outline:0}
+:focus{outline:0}
+sub,sup{vertical-align:baseline}
+textarea{resize:none;overflow:hidden;resize:none}
+img{border:0;vertical-align:middle}
+a img,img{-ms-interpolation-mode:bicubic}
+.img-responsive{max-width:100%;height:auto}
+html{overflow:-moz-scrollbars-vertical;zoom:expression(function(ele){ele.style.zoom = "1";document.execCommand("BackgroundImageCache",false,true)}
+(this))}
+.clear{diplay:block!important;float:none!important;clear:both;overflow:hidden;width:auto!important;height:0!important;margin:0 auto!important;padding:0!important;font-size:0;line-height:0}
+.red{ color: #f00;}
+.blue{ color: #1e60c3;}
+select::-ms-expand { display: none; }
+.input{ width:358px; height:34px; border:1px solid #e6e6e6; outline:none;}
+.textarea{ width:348px; height:101px; border:1px solid #e6e6e6; padding:5px; outline:none;}
+.submit{ width:130px; height:38px; background:#286bce; border-radius:5px; border:none; color:#fff; cursor:pointer; font-size:16px; line-height:38px;}
+
+/*----
+模块名称：ICO小图标部分
+修改内容：暂无
+模块作者：szy
+修改时间：2016.10.26
+----*/
+
+.ui_ico { display:inline-block;width:12px;height:12px;font-size:0;overflow:hidden;vertical-align:middle;background-image:url(../images/sprite_global.png); background-repeat:no-repeat;}
+
+/*  12*12   */
+.ui_ico_12_a{background-position: 0 0;}
+
+/*  14*14   */
+.ui_ico_14_a{ width: 14px; height: 14px;background-position:-40px 0;margin-right:5px;}
+.ui_ico_14_b{ width: 14px; height: 14px;background-position:-69px 0;margin-right:5px;}
+.ui_ico_14_c{ width: 14px; height: 14px;background-position:-69px -14px;margin-right:5px;}
+
+/*  16*16   */
+.ui_ico_16_a{ width: 16px; height: 16px;background-position:-20px 0;margin-right:5px;}
+
+/*  20*20   */
+.ui_ico_20_a{ width: 20px; height: 20px; background-position: 0 0;}
+
+/*  28*28   */
+.ui_ico_28_a{ width: 28px; height: 28px; background-position: -12px 0; margin-right: 10px;}
+
+
+/*----
+模块名称：头部及Logo部分
+修改内容：暂无
+模块作者：szy
+修改时间：2016.10.26
+----*/
+.topbar{ width:100%; height:40px; line-height:40px; background:#fafafa; border-bottom:1px solid #e6e6e6}
+.topbarn{ width:1130px; height:40px; margin:0 auto; color:#333; overflow:hidden;}
+.topbarn a{ color: #333; margin:0 5px;}
+.topbarn a:hover{ color: #da0101;}
+
+/* 头部广告 */
+.topAd{ width:1130px; height:125px; margin:0 auto; margin-top:15px;}
+.topAd img{ width:1130px; height:125px;}
+
+.head{ width: 1130px; height:50px; margin: 0 auto; margin-top:6px;}
+.head .headLe{ float: left; width:204px; height:50px; background:#9d9d9d}   /* logo */
+.head .headZh{ width:697px; height:50px; float:left; margin-left:29px; overflow:hidden}
+.head .headZh li{ float:left; width:50px; height:25px; line-height:25px; text-align:center; overflow:hidden}
+.head .headZh li a{ font-size:14px; color:#000}
+.head .headZh li a:hover{ color:#da0101}
+
+.head .headRi{ width:200px; height: 50; margin-top:10px; float: left;} /* 搜索框 */
+.head .headRi .topInput{ width:165px; height:28px; border:1px solid #555; border-right:0px; padding-left:5px;}
+.head .headRi .topButon{ width:28px; height:30px; border:1px solid #555; border-left:0px; background:url(../images/seach.png) no-repeat 3px center #fff; cursor:pointer}
+
+
+.navbar{ width: 100%; height:48px; line-height: 48px; background: #fff; margin-top:10px; border-top:3px solid #da0101; box-shadow: 0px 3px 5px #ccc}
+.nav{ width: 1130px; height: 48px;}
+.nav li{ width:86px; height: 48px; float: left; text-align: center; position: relative; overflow:hidden;}
+.nav li a { color:#333; font-size: 16px; display: block;}
+.nav li a:hover{ background:#da0101; color:#fff}
+.nav li.on a{ background:#da0101; color:#fff}
+
+.title{ width:1130px; height:40px; line-height:40px; font-size:26px;  color: #414141; margin:0 auto; margin-top:10px; border-bottom:5px solid #f3f3f3;}
+.title span{ vertical-align:middle;}
+
+/* 面包屑导航 */
+.user{ width:1130px; height:48px; line-height:48px; margin:0 auto; font-size:14px; color:#000;}
+.user a{ color:#000;}
+.user a:hover{ color: #da0101;}
+.user span{ vertical-align: middle; display: inline-block;}
+.user code{ margin:0 5px;}
+.user b{ font-weight:400; color:#da0101;}
+
+/* 网页分页 */
+.pagebar { width:100%; padding: 10px 0px; text-align: center; line-height: 2; clear: both; margin:30px 0px; margin-bottom:20px; font-size:14px; color:#999;}
+
+.pagebar a { display: inline-block;height:26px; padding: 0 10px; vertical-align: middle;line-height:26px; color:#dd0000; border: 1px solid #EAEAEA; margin:0 7px;}
+.pagebar a:hover{ background:#dd0000; color:#fff; border: 1px solid #dd0000;}
+.pagebar span {display: inline-block; height:26px; padding: 0 10px; vertical-align: middle; background:#dd0000; color:#fff;line-height:26px; border: 1px solid #dd0000;}
+.pagebar a.next{ margin-left:10px; border: 1px solid #EAEAEA;}
+.pagebar a.prev{ margin-right:5px; border: 1px solid #EAEAEA;}
+.pagebar a.ok{ margin-left:5px; width:70px;}
+.pagebar b{ font-weight:400; margin:0px 10px;}
+.pagebar .fonts{ display: inline-block; font-size: 14px; color: #999; margin: 0 5px;}
+.pagebar .pageInput{ display: inline-block; width: 48px; height: 33px; border: 1px solid #EAEAEA; text-align: center;}
+.pagebar .pageButton{ display: inline-block; width:64px; height: 33px; border: 1px solid #dddddd; background: #e8e8e8; cursor: pointer; color: #666;font-size:14px;transition: all 0.3s ease-in-out 0s;}
+.pagebar .pageButton:hover{ background:#1e60c3; color:#fff; border: 1px solid #1e60c3; }
+
+/* 网站底部 */
+.footNav{ width:100%; height:35px; line-height:35px; background:#f7f7f7; text-align:center; color:#777; margin-top:10px;}
+.footNav a{ color:#777; margin:0 10px;}
+.footNav a:hover{ color:#da0101;}
+
+.foot{ width:1130px; height:235px; margin:0 auto; color:#939393}
+.foot a{ color:#939393}
+.foot a:hover{ color:#da0101;}
+.foot .footTop{ width:1130px; height:40px; line-height:40px; text-align:center;}
+.foot .youqlj{ width:1130px; height:50px; margin-bottom:8px;}
+.foot .youqlj a{ display:block; float:left; width:110px; height:50px; margin-right:17px;}
+.foot .youqlj a img{ width:110px; height:50px;}
+.foot p{ line-height:20px; text-align:center;}
+
+/*----
+模块名称：返回顶部
+修改内容：暂无
+模块作者：szy
+修改时间：2016.10.28
+----*/
+
+.side-pannel{position:fixed;/*left:50%;margin-left:496px;*/ right:0px; z-index:99}
+.side-bar{bottom:134px; width:54px; background:#222222; padding-top:20px;}
+.side-bar .barBox{width:54px;height:54px; border:0px; background:#222222;position:relative;text-align:center; color:#fff; border-bottom:1px solid #abc2e0; cursor:pointer;}
+.side-bar .barBox span{ display:block;}
+.side-bar a{display:block;cursor:pointer;width:54px;height:47px; border:0px; background:#222;position:relative;text-align:center; color:#fff; border-bottom:1px solid #222;}
+.side-bar a s{display:block;margin-left:auto;margin-right:auto}
+.side-bar a span{line-height:20px}
+.side-bar a:hover{}
+.side-bar a.gotop{padding:4px 0; border-bottom:none;}
+.side-bar a:hover.gotop{}
+.side-bar a.text{ padding-top:5px; height:65px;}
+.side-bar a:hover.text{}
+.side-bar a.tel{ padding-top:5px; height:65px;}
+.side-bar a:hover.tel{}
+.side-bar a.map{ padding-top:5px; height:65px;}
+.side-bar a:hover.map{}
+.side-bar a.weixin{ }
+.side-bar a:hover.weixin{}
+.side-bar a.weixin b{width:120px;height:120px;position:absolute;left:-130px;top:50%;margin-top:-85px;display:none;background-position:0 0}
+.side-bar a.weixin:hover b{display:block}
+.side-bar a.sina{}
+.side-bar a:hover.sina{}
+.side-bar a span{ display:block;}
+
+.side-bar a.tel b{width:180px;height:70px;position:absolute;left:-190px;top:50%;margin-top:-35px;display:none;background-position:0 0; background:#4d85d1; color:#fff; font-size:20px; line-height:70px;}
+.side-bar a.tel:hover b{display:block}
